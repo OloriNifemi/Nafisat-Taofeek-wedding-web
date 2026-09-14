@@ -1,7 +1,7 @@
 import Countdown from "../Pages/CountDown";
 import Logo from "../../assets/MuyiwaLogo-1.svg";
 // import { BRIDE, GROOM, HASHTAG } from "../Pages/Wedding";
-import HeroImg from "../../assets/MuyiwaEtDebbyImg15.jpeg";
+import HeroImg from "../../assets/MuyiwaEtDebbyImg15.jpg";
 
 // Centralize target IDs here — update STORY_SECTION_ID to match whatever
 // id the "Our Story" section actually uses (check that file if this still
@@ -31,7 +31,7 @@ export default function Hero() {
       <img
         src={HeroImg}
         alt="Wedding-Hero-Image"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover object-[center_15%]"
       />
 
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/80" />

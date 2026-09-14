@@ -7,4 +7,4 @@ export const GROOM = "Olumuyiwa";
 export const HASHTAG = "#OfficiallyTheAdebayos";
 
 export const VENUE =
-  "The City Club, 28, Rafiu Williams Cres, Off Adelabu, Surulere, Lagos";
+  "Premier Banqueting Suite  Leeds, lagos.  Postal code:LS9 8BJ.";

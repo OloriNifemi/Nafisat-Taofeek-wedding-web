@@ -5,18 +5,18 @@
 
 :root {
   /* Brand Colors */
-  --ink: #4a2c1d;
-  --gold: #cc5500;
-  --gold-deep: #a84400;
-  --gold-soft: #e8dccb;
-  --ivory: #e8dccb;
+  --ink: #0B251A;
+  --gold: #D1B052;
+  --gold-deep: #B8860B;
+  --gold-soft: #F8D8C8;
+  --ivory: #F8D8C8;
 
   /* Gradient */
   --gradient-gold: linear-gradient(
     135deg,
-    #e8dccb 0%,
-    #cc5500 55%,
-    #4a2c1d 100%
+    #F8D8C8 0%,
+    #D1B052 55%,
+    #0B251A 100%
   );
 
   /* Shadow */

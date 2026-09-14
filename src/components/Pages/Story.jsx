@@ -7,19 +7,19 @@ import { motion } from "framer-motion";
 const STORY = [
   {
     title: "Where it began",
-    text: "We met at the University of Lagos while pursuing our MBA, brought together by study sessions, exam preparations, and the shared determination to succeed. What started as friendship grew naturally as we discovered shared values, common dreams, and an effortless connection that extended far beyond the classroom. Somewhere between the lectures, case studies, and countless conversations, friendship blossomed into love. Today, we’re grateful that a journey that began as classmates has led us here.",
+    text: " They say a journey of a thousand miles begins with a single step, and ours began at Adekunle Ajasin University. What started with two people who were barely friends gradually grew into a beautiful friendship, and eventually into a love we now proudly call Together forever. From the very first time I met Nafisat, something in my heart told me she was the woman of my dreams. And as they say, when you find your dream, you pursue it until it becomes your reality. We first met at the Senate Building, during registration screening.. From attending classes together to sharing conversations and spending quality time with one another, our friendship grew naturally. With every moment we shared, we became closer, and the bond between us grew stronger. ",
     img: Img1,
     scale: "100%",
   },
   {
     title: "First Date",
-    text: "  After sharing moments at the beach and over lunch with mutual friends, our first private outing was an ice cream date. ",
+    text: "  After spending so much time together at university, our first date came during our semester holiday. We chose to escape the routine, visit the beach, and simply enjoy each other’s company. It was a beautiful day filled with laughter, meaningful conversations, and precious moments that brought us even closer.It was more than our first date, it was the beginning of many beautiful memories we would create together. ",
     img: Img2,
     scale: "100%",
   },
   {
     title: "The proposal",
-    text: "It was just the two of us, sharing a beautiful evening together. We cooked dinner, laughed, and enjoyed good food while soft music played in the background, completely unaware that the night was about to become one we'd cherish forever. After dinner, I asked her to check her email. Waiting in her inbox was a letter from me. As she read each line, I quietly reached for the ring. Before she got to the final paragraph, I was ready to ask the most important question of my life.In that moment, an ordinary evening became the beginning of our forever.",
+    text: " Our proposal was simple, intimate, and beautiful surrounded by a few close friends, good food, laughter, and unforgettable moments. But beneath all the celebration was something much more meaningful: the most important question of my life, and she said yes.Today, we celebrate the love that began with a simple step and has brought us to together forever. And we are truly happy to have you here to celebrate this beautiful chapter with us. ❤️",
     img: Img4,
     scale: "70%",
   },
@@ -86,9 +86,11 @@ export default function Story() {
         <Eyebrow>Our Journey</Eyebrow>
         <SectionTitle>Our Love Story</SectionTitle>
         <p className="mt-8 text-lg md:text-xl text-gray-600 leading-relaxed font-display">
-          We are so excited to celebrate our special day with the people we love
-          most. Every quiet moment, every long laugh, every small kindness
-          brought us here, and we cannot imagine doing it without you.
+          It has been a beautiful year of friendship, love, growth, and unforgettable memories.
+          What began as a simple connection has blossomed into a love built on friendship, understanding, laughter, and shared dreams. 
+          Today, we celebrate not just where we are, but the journey that brought us here. 
+          We are deeply grateful to our beautiful family and friends for sharing in this special chapter of our lives.
+          Ourjourney has brought us here, and we can’t wait to begin forever together.
         </p>
       </motion.div>
       <div className="relative">
