@@ -11,7 +11,7 @@ import Img10 from "../../assets/MuyiwaEtDebbyImg10.jpeg";
 import Img11 from "../../assets/MuyiwaEtDebbyImg11.jpeg";
 import Img12 from "../../assets/MuyiwaEtDebbyImg12.jpeg";
 import Img13 from "../../assets/MuyiwaEtDebbyImg13.jpeg";
-import Img15 from "../../assets/MuyiwaEtDebbyImg15.jpg";
+import Img15 from "../../assets/MuyiwaEtDebbyImg15.jpeg";
 import Img16 from "../../assets/MuyiwaEtDebbyImg16.jpeg";
 
 const IMAGES = [

@@ -65,7 +65,7 @@ export default function Registry() {
         {loading ? (
           <p className="text-center text-gray-500">Loading gifts…</p>
         ) : (
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8 lg:px-[37px]">
             {GIFTS.map((gift) => (
               <GiftCard
                 key={gift.id}

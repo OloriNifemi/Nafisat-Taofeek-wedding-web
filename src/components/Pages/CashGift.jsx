@@ -5,7 +5,7 @@ import { Eyebrow, SectionTitle } from "../Ui/Ui";
 const TOAST_DURATION = 2200;
 
 export default function CashGift() {
-  const accountNumber = "9347152469";
+  const accountNumber = "51559811";
   const [status, setStatus] = useState("idle"); // 'idle' | 'copied' | 'error'
   const timeoutRef = useRef(null);
 
@@ -74,18 +74,18 @@ export default function CashGift() {
               </p>
 
               <h3 className="mt-1 font-display text-xl md:text-2xl font-light text-[var(--ink)]">
-                Adekunle Deborah
+                Nafisat Dahunsi
               </h3>
             </div>
 
             {/* Bank */}
             <div>
               <p className="text-[10px] uppercase tracking-[0.35em] text-[var(--gold)]">
-                Bank
+                Sort code
               </p>
 
               <h3 className="mt-1 font-display text-xl md:text-2xl font-light text-[var(--ink)]">
-                Wema Bank
+                04-29-09
               </h3>
             </div>
 

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import Image from "../../assets/MuyiwaEtDebbyImg8.jpeg";
 import { GROOM, BRIDE } from "./Wedding";
-import Logo from "../../assets/MuyiwaLogo-2.svg";
+import Logo from "../../assets/MuyiwaLogo-2.png";
 
 const LINES = [
   "Two souls, one direction.",
@@ -138,22 +138,23 @@ export default function Promise() {
       </div>
 
       {/* ── Bottom: progress + names ── */}
-      <div className="absolute inset-x-0 bottom-0 z-20 flex flex-col items-center pb-5 md:pb-14 px-6">
+      <div className=" absolute inset-x-0 bottom-0 z-20 flex flex-col items-center pb-5 md:pb-14 px-6 ">
         <div className="w-full max-w-xs h-px bg-white/20 rounded-full overflow-hidden">
-          <div
-            className="h-full bg-[var(--gold)] rounded-full transition-all ease-linear"
-            style={{
-              width: `${((activeLine + 1) / LINES.length) * 100}%`,
-              transitionDuration: `${INTERVAL_MS}ms`,
-            }}
-          />
-        </div>
-
-        <img
-          src={Logo}
-          alt={`${GROOM} & ${BRIDE}`}
-          className="size-20 md:size-40"
-        />
+            <div
+              className="h-full bg-[var(--gold)] rounded-full transition-all ease-linear"
+              style={{
+                width: `${((activeLine + 1) / LINES.length) * 100}%`,
+                transitionDuration: `${INTERVAL_MS}ms`,
+              }}
+            />
+          </div>
+          <div className="w-full flex justify-center items-center">
+            <img
+              src={Logo}
+              alt={`${GROOM} & ${BRIDE}`}
+              className="w-32 h-32 md:w-56 md:h-56 object-contain "
+            />
+          </div>
         {/* <h2 className="font-display text-3xl md:text-5xl font-light text-white tracking-wide text-center">
           {GROOM}
           <span className="mx-3 text-[var(--gold)]">&amp;</span>

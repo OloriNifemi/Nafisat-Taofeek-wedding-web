@@ -82,7 +82,7 @@ export default function GiftCard({ gift, taken, onBuy, onMarkPurchased }) {
           {gift.description}
         </p>
 
-        <p className="mt-1 text-center text-[15px] font-medium text-[var(--gold-deep)]">
+        <p className="mt-1 text-center text-[12px] font-medium text-[var(--gold-deep)]">
           {gift.price}
         </p>
 

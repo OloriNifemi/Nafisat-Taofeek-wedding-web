@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Logo from "../../assets/MuyiwaLogo-2.svg";
+import Logo from "../../assets/MuyiwaLogo-2.png";
 
 const links = [
   { label: "Story", id: "story" },

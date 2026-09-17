@@ -16,11 +16,11 @@ const RIDES = [
     url: `https://www.google.com/maps/search/?api=1&query=${QUERY}`,
     color: "bg-[var(--ink)] text-white",
   },
-  {
-    name: "Uber",
-    url: `https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff[formatted_address]=${QUERY}&dropoff[nickname]=Wedding%20Venue`,
-    color: "bg-black text-white",
-  },
+  // {
+  //   name: "Uber",
+  //   url: `https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff[formatted_address]=${QUERY}&dropoff[nickname]=Wedding%20Venue`,
+  //   color: "bg-black text-white",
+  // },
   {
     name: "Bolt",
     url: "https://bolt.eu/en-us/",
@@ -90,7 +90,7 @@ export default function GettingThere() {
       <div
         role="list"
         aria-label="Ways to get to the venue"
-        className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4"
+        className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4"
       >
         {RIDES.map((r) => (
           <a

@@ -1,7 +1,7 @@
 import Countdown from "../Pages/CountDown";
-import Logo from "../../assets/MuyiwaLogo-1.svg";
+import Logo from "../../assets/MuyiwaLogo-1.png";
 // import { BRIDE, GROOM, HASHTAG } from "../Pages/Wedding";
-import HeroImg from "../../assets/MuyiwaEtDebbyImg15.jpg";
+import HeroImg from "../../assets/MuyiwaEtDebbyImg15.jpeg";
 
 // Centralize target IDs here — update STORY_SECTION_ID to match whatever
 // id the "Our Story" section actually uses (check that file if this still
@@ -49,10 +49,10 @@ export default function Hero() {
           <span className="h-px w-16 md:w-32 bg-[var(--gold)]/70" />
         </div>
 
-        <img src={Logo} alt="Wedding Logo" className="size-240" />
+        <img src={Logo} alt="Wedding Logo" className="w-70 h-80 bottom-16 top-0" />
 
-        <p className="mt-8 text-white/80 tracking-[0.4em] uppercase text-xs md:text-sm">
-          12 · 09 · 2026 · Lagos, Nigeria
+        <p className=" text-white/80 tracking-[0.4em] uppercase text-xs md:text-sm">
+          08 · 10 · 2026 · Lagos, Nigeria
         </p>
 
         <div className="mt-12 w-full flex justify-center cursor-pointer">

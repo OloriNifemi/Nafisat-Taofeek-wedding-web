@@ -1,5 +1,5 @@
 import { BRIDE, GROOM } from "../Pages/Wedding";
-import Logo from "../../assets/MuyiwaLogo-2.svg";
+import Logo from "../../assets/MuyiwaLogo-2.png";
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
       <img
         src={Logo}
         alt={`${GROOM} & ${BRIDE}`}
-        className="size-[200px] md:size-[400px]"
+       className="w-[250px] h-[250] md:w-[500px] md:h-[500px] object-contain"
       />
       <p className="mt-6 text-white/50 md:text-xs text-[8px]">
         Built by{" "}
