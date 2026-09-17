@@ -1,18 +1,16 @@
 import { Eyebrow, SectionTitle } from "../Ui/Ui";
 
+const COLORS = [
+  { name: "Emerald Green", bg: "#2d6a4f", text: "#ffffff" },
+  { name: "White",         bg: "#ffffff", text: "#555555" },
+  { name: "Gold",          bg: "#c9a84c", text: "#ffffff" },
+  { name: "Peach",         bg: "#ffcba4", text: "#7a4f3a" },
+];
+
 const DETAILS = [
-  {
-    label: "Date",
-    value: " 09 . 10 . 2026",
-  },
-  {
-    label: "Time",
-    value: "01:00 PM (No African Time)",
-  },
-  {
-    label: "Color Of The Day",
-    value: ["Emerald Green", "White", "Gold", "Peach"]
-  },
+  { label: "Date",          value: "09 · 10 · 2026" },
+  { label: "Time",          value: "01:00 PM\n(No African Time)" },
+  { label: "Color Of The Day", value: "colors" },
 ];
 
 export default function Details() {
@@ -27,16 +25,13 @@ export default function Details() {
           <SectionTitle dark>Wedding Details</SectionTitle>
         </div>
 
-        {/* Information */}
         <div className="grid grid-cols-1 sm:grid-cols-3">
           {DETAILS.map((d, i) => (
             <div
               key={d.label}
               className={`
                 flex flex-col items-center justify-center
-                text-center
-                px-8 py-8
-
+                text-center px-8 py-10
                 ${
                   i === 0
                     ? "sm:border-r sm:border-[var(--gold-soft)]/20"
@@ -46,26 +41,55 @@ export default function Details() {
                 }
               `}
             >
-              <p className="mb-2 text-[10px] tracking-[0.4em] uppercase text-[var(--ivory)]">
+              {/* Label */}
+              <p className="mb-4 text-[9px] tracking-[0.5em] uppercase text-[var(--gold)]">
                 {d.label}
               </p>
 
-              <p className="text-white/80 leading-relaxed">
-                {Array.isArray(d.value)
-                  ? d.value.map((item) => (
-                      <span key={item} className="block">
-                        {item}
+              {/* Thin gold rule */}
+              <div className="mb-4 h-px w-6 bg-[var(--gold)]/40" />
+
+              {/* Value */}
+              {d.value === "colors" ? (
+                <div className="flex flex-col items-center gap-3 w-full">
+                  {/* Swatch row */}
+                  <div className="flex items-center justify-center gap-2">
+                    {COLORS.map((c) => (
+                      <div
+                        key={c.name}
+                        className="w-7 h-7 rounded-full ring-1 ring-white/20 shadow-md"
+                        style={{ backgroundColor: c.bg }}
+                        title={c.name}
+                      />
+                    ))}
+                  </div>
+                  {/* Names below swatches */}
+                  <div className="flex flex-wrap justify-center gap-x-3 gap-y-1">
+                    {COLORS.map((c, ci) => (
+                      <span
+                        key={c.name}
+                        className="text-[10px] tracking-[0.2em] uppercase text-white/50"
+                      >
+                        {c.name}
+                        {ci < COLORS.length - 1 && (
+                          <span className="ml-3 text-[var(--gold)]/30">·</span>
+                        )}
                       </span>
-                    ))
-                  : d.value}
-              </p>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <p className="text-white/75 leading-relaxed text-sm whitespace-pre-line">
+                  {d.value}
+                </p>
+              )}
 
               {/* Mobile divider */}
               {i !== DETAILS.length - 1 && (
                 <div className="mt-8 flex justify-center sm:hidden">
                   <div
                     className="h-10 w-px"
-                    style={{ backgroundColor: "rgba(232,220,203,0.5)" }}
+                    style={{ backgroundColor: "rgba(232,220,203,0.3)" }}
                   />
                 </div>
               )}
