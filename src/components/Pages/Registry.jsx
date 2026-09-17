@@ -55,7 +55,7 @@ export default function Registry() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <Eyebrow>With gratitude</Eyebrow>
-          <SectionTitle>Gift Registry</SectionTitle>
+          <SectionTitle>Our Wish List</SectionTitle>
           <p className="mt-4 max-w-xl mx-auto text-gray-600 leading-relaxed">
             Your love and prayers mean the world to us. If you'd like to bless
             our new home, we've put together a few gifts we'd truly appreciate.

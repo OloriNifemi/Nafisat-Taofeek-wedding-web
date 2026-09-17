@@ -21,7 +21,7 @@ const STORY = [
     title: "The proposal",
     text: " Our proposal was simple, intimate, and beautiful surrounded by a few close friends, good food, laughter, and unforgettable moments. But beneath all the celebration was something much more meaningful: the most important question of my life, and she said yes.Today, we celebrate the love that began with a simple step and has brought us to together forever. And we are truly happy to have you here to celebrate this beautiful chapter with us. ❤️",
     img: Img4,
-    scale: "70%",
+    scale: "100%",
   },
 ];
 
@@ -129,16 +129,12 @@ export default function Story() {
                 >
                   <div className="w-full max-w-sm md:max-w-none aspect-[4/5] overflow-hidden rounded-2xl shadow-[var(--shadow-luxe)]">
                     <div
-                      className={`w-full h-full ${
-                        i === 2 ? "p-4 bg-[#f5f2ed]" : ""
-                      }`}
+                      className="w-full h-full "
                     >
                       <img
                         src={s.img}
                         alt={s.title}
-                        className={`w-full h-full transition-transform duration-[1800ms] ease-out hover:scale-105 ${
-                          i === 2 ? "object-contain" : "object-cover"
-                        }`}
+                        className="w-full h-full transition-transform duration-[1800ms] ease-out hover:scale-105 object-cover"
                       />
                     </div>
                   </div>
