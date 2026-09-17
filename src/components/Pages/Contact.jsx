@@ -2,9 +2,11 @@ import { Eyebrow, SectionTitle } from "../../components/Ui/Ui";
 
 export default function Contact() {
   const items = [
-    { name: "Esther", contact: "+234 818 497 2312" },
-    { name: "Tifeh Events ", contact: "+234 703 855 3990" },
-    { name: "Stephen ", contact: "+234 9165529870" },
+    { name: "Aby", contact: "07456 951350" },
+    { name: "Abisola ", contact: "07538159382" },
+    { name: "Aisha ", contact: "07404 293117" },
+
+
   ];
   return (
     <section

@@ -1,7 +1,7 @@
 import Countdown from "../Pages/CountDown";
 import Logo from "../../assets/MuyiwaLogo-1.png";
 // import { BRIDE, GROOM, HASHTAG } from "../Pages/Wedding";
-import HeroImg from "../../assets/MuyiwaEtDebbyImg15.jpeg";
+import HeroImg from "../../assets/MuyiwaEtDebbyImg15.webp";
 
 // Centralize target IDs here — update STORY_SECTION_ID to match whatever
 // id the "Our Story" section actually uses (check that file if this still

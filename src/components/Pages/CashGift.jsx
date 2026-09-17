@@ -84,7 +84,7 @@ export default function CashGift() {
                 Sort code
               </p>
 
-              <h3 className="mt-1 font-display text-xl md:text-2xl font-light text-[var(--ink)]">
+              <h3 className="mt-1 text-xl md:text-2xl font-light text-[var(--ink)]">
                 04-29-09
               </h3>
             </div>

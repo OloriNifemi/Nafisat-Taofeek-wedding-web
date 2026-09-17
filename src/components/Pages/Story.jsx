@@ -1,7 +1,7 @@
 import { Eyebrow, SectionTitle } from "../Ui/Ui";
-import Img1 from "../../assets/MuyiwaEtDebbyImg13.jpeg";
-import Img2 from "../../assets/MuyiwaEtDebbyImg6.jpeg";
-import Img4 from "../../assets/Proposal.jpeg";
+import Img1 from "../../assets/MuyiwaEtDebbyImg13.webp";
+import Img2 from "../../assets/MuyiwaEtDebbyImg6.webp";
+import Img4 from "../../assets/Proposal.webp";
 import { motion } from "framer-motion";
 
 const STORY = [

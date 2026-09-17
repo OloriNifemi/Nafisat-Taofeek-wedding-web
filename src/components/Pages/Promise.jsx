@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import Image from "../../assets/MuyiwaEtDebbyImg8.jpeg";
+import Image from "../../assets/MuyiwaEtDebbyImg8.webp";
 import { GROOM, BRIDE } from "./Wedding";
 import Logo from "../../assets/MuyiwaLogo-2.png";
 

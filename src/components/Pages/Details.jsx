@@ -3,7 +3,7 @@ import { Eyebrow, SectionTitle } from "../Ui/Ui";
 const DETAILS = [
   {
     label: "Date",
-    value: "October 08 2026.",
+    value: " 08 . 10 . 2026",
   },
   {
     label: "Time",

@@ -1,4 +1,4 @@
-export const WHATSAPP_NUMBER = "2348037839028";
+export const WHATSAPP_NUMBER = "2348141711717";
 
 export const ACCOUNT_DETAILS = {
   SortCode : "04-29-09",

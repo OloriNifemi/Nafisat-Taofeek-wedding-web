@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+// ✅ Change this date for each couple — format: YYYY-MM-DDTHH:mm:ss
 const WEDDING_DATE = new Date("2026-10-08T00:00:00");
 
 export default function Countdown() {
@@ -16,7 +17,7 @@ export default function Countdown() {
     return (
       <div className="flex flex-col items-center gap-3">
         <p className="font-display text-3xl md:text-4xl font-light text-white tracking-wide text-center">
-          Today is the day! 🎉
+          We're married! 💛
         </p>
         <div className="flex items-center gap-4 opacity-60">
           <span className="h-px w-12 bg-[var(--gold)]" />
