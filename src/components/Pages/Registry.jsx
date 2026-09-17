@@ -51,7 +51,7 @@ export default function Registry() {
   };
 
   return (
-    <section id="registry" className="py-24 md:py-32 px-6 md:px-10 bg-[var(--ivory)]">
+    <section id="registry" className="py-24 md:py-32 px-6 md:px-20 bg-[var(--ivory)]">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <Eyebrow>With gratitude</Eyebrow>
@@ -65,7 +65,7 @@ export default function Registry() {
         {loading ? (
           <p className="text-center text-gray-500">Loading gifts…</p>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8 lg:px-[37px]">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {GIFTS.map((gift) => (
               <GiftCard
                 key={gift.id}

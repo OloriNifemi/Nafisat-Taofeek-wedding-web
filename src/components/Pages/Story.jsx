@@ -90,7 +90,7 @@ export default function Story() {
           What began as a simple connection has blossomed into a love built on friendship, understanding, laughter, and shared dreams. 
           Today, we celebrate not just where we are, but the journey that brought us here. 
           We are deeply grateful to our beautiful family and friends for sharing in this special chapter of our lives.
-          Ourjourney has brought us here, and we can’t wait to begin forever together.
+          Our journey has brought us here, and we can’t wait to begin forever together.
         </p>
       </motion.div>
       <div className="relative">

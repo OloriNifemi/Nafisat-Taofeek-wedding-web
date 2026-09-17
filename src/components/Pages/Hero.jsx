@@ -52,7 +52,7 @@ export default function Hero() {
         <img src={Logo} alt="Wedding Logo" className=" w-60 h-70 md:w-[400px] md:h-70 bottom-16 top-0" />
 
         <p className=" text-white/80 tracking-[0.4em] uppercase text-xs md:text-sm">
-          08 · 10 · 2026 · Lagos, Nigeria
+          09 · 10 · 2026 · Leeds, United Kingdom
         </p>
 
         <div className="mt-12 w-full flex justify-center cursor-pointer">
