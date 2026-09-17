@@ -7,8 +7,9 @@ const client = createClient({
   dataset: process.env.SANITY_DATASET,
   useCdn: false,
   apiVersion: "2026-03-01",
-  token: process.env.SANITY_API_TOKEN,
+  token: process.env.SANITY_WRITE_TOKEN,
 });
+
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
