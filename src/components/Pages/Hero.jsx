@@ -49,7 +49,7 @@ export default function Hero() {
           <span className="h-px w-16 md:w-32 bg-[var(--gold)]/70" />
         </div>
 
-        <img src={Logo} alt="Wedding Logo" className=" w-60 h-70 md:w-70 md:h-80 bottom-16 top-0" />
+        <img src={Logo} alt="Wedding Logo" className=" w-60 h-70 md:w-[400px] md:h-70 bottom-16 top-0" />
 
         <p className=" text-white/80 tracking-[0.4em] uppercase text-xs md:text-sm">
           08 · 10 · 2026 · Lagos, Nigeria
