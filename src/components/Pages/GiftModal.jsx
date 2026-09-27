@@ -262,7 +262,7 @@ I'll attach my payment screenshot in this chat.`,
               <div className="text-5xl mb-4">💛</div>
               <h2 className="font-display text-3xl mb-4">Thank You!</h2>
               <p className="text-gray-600 leading-relaxed">
-                Your gift has been recorded. Muyiwa and Debby are so grateful
+                Your gift has been recorded. We are so grateful
                 for your generosity.
               </p>
               <button
