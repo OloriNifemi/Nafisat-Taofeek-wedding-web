@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 // ✅ Change this date for each couple — format: YYYY-MM-DDTHH:mm:ss
-const WEDDING_DATE = new Date("2026-10-08T00:00:00");
+const WEDDING_DATE = new Date("2026-10-09T00:00:00");
 
 export default function Countdown() {
   const [now, setNow] = useState(() => Date.now());
